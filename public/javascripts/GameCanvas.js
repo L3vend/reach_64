@@ -112,10 +112,10 @@ function ()
     // Update the game
 
     // Render the game
-    var render_width = 200 ;
-    var render_height = 200 ;
-    var tile_width = 200 / 4 ;
-    var tile_height = 200 / 4 ;
+    var render_width = 400 ;
+    var render_height = 400 ;
+    var tile_width = 400 / 4 ;
+    var tile_height = 400 / 4 ;
 
     var game_canvas = document.getElementById("game_canvas");
     game_canvas.width = render_width ;
