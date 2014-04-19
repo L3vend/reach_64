@@ -1,0 +1,15 @@
+{
+  "name": "reach_64",
+  "version": "0.0.0",
+  "description": "reach_64",
+  "main": "app.js",
+  "author": {
+    "name": "Alexandre",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "stylus": "*"
+  }
+}
