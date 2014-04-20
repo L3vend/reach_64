@@ -1,8 +1,14 @@
 ﻿extends layout
 
- 
+block scripts
+  script(src='/javascripts/game_manager_module.js')
+  script(src='/javascripts/game_renderer_module.js')
+  script(src='/javascripts/client.js')
+
 block content
   h1= title
   p Welcome to #{title}
   canvas#game_canvas ( width='640' , height='480' )
-  script(src='/javascripts/GameCanvas.js')
+  
+  
+  
