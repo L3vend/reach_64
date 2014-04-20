@@ -34,6 +34,7 @@
     <Compile Include="public\javascripts\client.js" />
     <Compile Include="public\javascripts\game_manager_module.js" />
     <Compile Include="public\javascripts\game_renderer_module.js" />
+    <Compile Include="public\javascripts\player_module.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\user.js" />
     <Content Include="package.json" />
